@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background: #000;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: orange;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links .reservation-btn {
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('photo2.jpg') no-repeat center center/cover;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: aqua;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkorange;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
